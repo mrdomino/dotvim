@@ -1,5 +1,6 @@
 #!/bin/sh
 set -eu
-cd $(dirname $0)
+cd "$(dirname $0)"
+mkdir -p ../tmp
 git submodule update --init
 ln -sf .vim/vimrc ../.vimrc

@@ -1,11 +1,7 @@
-To use this yourself, assuming a standard Vim install:
+To use this yourself:
 
-    { cd "$HOME" &&
-      mkdir vimbak &&
-      mv .vim{,rc} vimbak &&
-      git clone https://github.com/mrdomino/vim .vim &&
-      ln -s .vim/vimrc .vimrc
-    }
+    git clone https://github.com/mrdomino/dotvim .vim
+    .vim/install
 
-Make sure ~/tmp exists, or remove the line in .vimrc that sets it as the swap
-dir.
+This creates a ~/tmp directory. If that's undesirable, remove it and change the
+dir= line in vimrc.
