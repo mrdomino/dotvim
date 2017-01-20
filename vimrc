@@ -1,3 +1,5 @@
+let g:gundo_prefer_python3=1
+
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
