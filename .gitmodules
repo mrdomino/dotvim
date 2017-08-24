@@ -16,3 +16,6 @@
 [submodule "bundle/cscope_maps"]
 	path = bundle/cscope_maps
 	url = https://github.com/chazy/cscope_maps
+[submodule "bundle/vim-beancount"]
+	path = bundle/vim-beancount
+	url = https://github.com/nathangrigg/vim-beancount

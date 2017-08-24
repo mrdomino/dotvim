@@ -14,5 +14,10 @@ set expandtab
 set dir=~/tmp
 set nobackup
 set nowritebackup
+set relativenumber
+autocmd BufNewFile,BufRead ~/ledger/* set foldmethod=marker
 
+nnoremap <C-l> :nohlsearch<CR><C-l>
 nnoremap <F5> :GundoToggle<CR>
+inoremap <F6> <Esc>:AlignCommodity<CR>a
+nnoremap <F6> :AlignCommodity<CR>
