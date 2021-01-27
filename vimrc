@@ -15,7 +15,11 @@ set dir=~/tmp
 set nobackup
 set nowritebackup
 set relativenumber
+set backspace=indent,eol,start
 autocmd BufNewFile,BufRead ~/ledger/* set foldmethod=marker
+" holy cow, ruby needs syntax highlighting for autoindent to work?
+autocmd BufNewFile,BufRead *.rb syntax on
+autocmd BufNewFile,BufRead *.erb syntax on
 
 nnoremap <C-l> :nohlsearch<CR><C-l>
 nnoremap <F5> :GundoToggle<CR>
