@@ -22,3 +22,6 @@
 [submodule "bundle/direnv.vim"]
 	path = bundle/direnv.vim
 	url = https://github.com/direnv/direnv.vim
+[submodule "bundle/hoon.vim"]
+	path = bundle/hoon.vim
+	url = https://github.com/urbit/hoon.vim
