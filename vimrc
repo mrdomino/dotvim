@@ -5,7 +5,9 @@ execute pathogen#infect()
 
 syntax off
 filetype plugin indent on
-set list listchars=tab:>-,trail:.
+set showbreak=↪\ 
+set ruler
+set list listchars=tab:→\ ,trail:·,nbsp:␣
 set incsearch
 set number
 set tabstop=2
