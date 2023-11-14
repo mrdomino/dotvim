@@ -5,6 +5,7 @@ execute pathogen#infect()
 
 syntax off
 filetype plugin indent on
+set background=dark
 set showbreak=↪\ 
 set ruler
 set list listchars=tab:→\ ,trail:·,nbsp:␣
