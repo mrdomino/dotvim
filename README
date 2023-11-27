@@ -1,3 +1,5 @@
+SUPERSEDED. See instead: https://github.com/mrdomino/dotconfig
+
 To use this yourself:
 
     git clone https://github.com/mrdomino/dotvim .vim
